@@ -1,0 +1,5 @@
+print("Please input your first name ")
+first_name = str(input())
+print("Please input your second name ")
+second_name = str(input())
+print("Your complete name is: " + str(first_name) + " " + str(second_name))
