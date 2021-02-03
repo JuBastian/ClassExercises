@@ -3,16 +3,11 @@ import time
 print("Please input a number")
 number = input()
 print("Please wait a moment")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
-print(".")
-time.sleep(0.5)
-print(".")
+
+for _ in range(5):
+    time.sleep(0.5)
+    print(".")
+
 if number == "1":
     print("Communicating you with the salaries dependency")
 elif number == "2":
@@ -32,16 +27,11 @@ while(number != "5" and number != "6"):
     print("Please input a number")
     number = input()
     print("Please wait a moment")
-    time.sleep(0.5)
-    print(".")
-    time.sleep(0.5)
-    print(".")
-    time.sleep(0.5)
-    print(".")
-    time.sleep(0.5)
-    print(".")
-    time.sleep(0.5)
-    print(".")
+
+    for _ in range(5):
+        time.sleep(0.5)
+        print(".")
+
     if number == "1":
         print("Communicating you with the salaries dependency")
     elif number == "2":
